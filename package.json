@@ -1,6 +1,6 @@
 {
-  "name": "tixia",
-  "homepage": "https://tixia.dexignlab.com/react/",
+  "name": "dis-team-3",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -79,7 +79,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
